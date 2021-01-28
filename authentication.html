@@ -13,10 +13,12 @@ title: Authentication
 
 <table style="width:100%">
   <tr>
-    <th><b>Event Name</b></th>
-    <th><b>Date Added</b></th>
-    <th><b>Description</b></th>
-    <th><b>Type</b></th>
+    <th>Event Name</th>
+    <th>Date Added</th>
+    <th>Description</th>
+    <th>Type</th>
+    <th>Mobile?</th>
+    <th>Web?</th>
   </tr>
   {% for event in authentication %}
   <tr>
@@ -24,6 +26,8 @@ title: Authentication
     <td>{{ event.Date_Added }}</td>
     <td>{{ event.Description }}</td>
     <td>{{ event.Type }}</td>
+    <td>{{ event.iOS }}</td>
+    <td>{{ event.Web }}</td>
   </tr>
   {% endfor %}
 </table>
