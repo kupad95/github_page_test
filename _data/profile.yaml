@@ -1,0 +1,14 @@
+- Event_Name: personalprofile
+  Date_Added: '01-12-2023'
+  Description: Enter "Personal profile" screen
+  Type: Screen
+  iOS: True
+  Android: True
+  Web: False
+- Event_Name: personalprofileedit-submit
+  Date_Added: '10-12-2023'
+  Description: Save profile editions
+  Type: Track
+  iOS: True
+  Android: True
+  Web: False
