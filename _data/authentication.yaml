@@ -2,9 +2,13 @@
   Date_Added: '01-12-2017'
   Description: User presses "sign up" on landing screen
   Type: Track
-  Reason: User begins signup 
+  iOS: True
+  Android: True
+  Web: False
 - Event_Name: login-pressed
   Date_Added: '10-12-2017'
   Description: User presses "log in" on landing screen
   Type: Track
-  Reason: User begins login 
+  iOS: True
+  Android: True
+  Web: False
