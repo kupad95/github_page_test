@@ -3,7 +3,6 @@
   Description: User presses "sign up" on landing screen
   Type: Track
   Reason: User begins signup 
-  
 - Event Name: login-pressed
   Date Added: '10-12-2017'
   Description: User presses "log in" on landing screen
