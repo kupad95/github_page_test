@@ -1,10 +1,10 @@
-- Event Name: signup-pressed
-  Date Added: '01-12-2017'
+- Event_Name: signup-pressed
+  Date_Added: '01-12-2017'
   Description: User presses "sign up" on landing screen
   Type: Track
   Reason: User begins signup 
-- Event Name: login-pressed
-  Date Added: '10-12-2017'
+- Event_Name: login-pressed
+  Date_Added: '10-12-2017'
   Description: User presses "log in" on landing screen
   Type: Track
   Reason: User begins login 
