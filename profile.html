@@ -4,7 +4,7 @@ title: Profile Page
 ---
 
 <!-- Organizations -->
-{% assign profile = site.data.authentication %}
+{% assign profile = site.data.profile %}
 {% assign profile = profile | sort:"Event_Name" %}
 
 
@@ -19,7 +19,7 @@ title: Profile Page
     <th>Mobile?</th>
     <th>Web?</th>
   </tr>
-  {% for event in authentication %}
+  {% for event in profile %}
   <tr>
     <td>{{ event.Event_Name }}</td>
     <td>{{ event.Date_Added }}</td>
