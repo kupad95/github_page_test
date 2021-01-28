@@ -14,9 +14,7 @@ title: Investments
 {% for investment in investments %}
 
 <ul>
-<li><strong>{{ investment.Name }}</strong> 
-<br/>
-  ({{ investment.Date }}, {{ investment.Notes }})</li>
+<li><strong>{{ investment.Name }}</strong> ({{ investment.Date }}, {{ investment.Notes }}, {{ investment.Reason }})</li>
 </ul>
 
 {% endfor %}
